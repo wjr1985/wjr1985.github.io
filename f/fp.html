@@ -1,0 +1,28 @@
+<html>
+  <head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/fingerprintjs2@2.1.0/dist/fingerprint2.min.js"></script>
+  </head>
+  <body>
+    <pre>
+    <div id="output"></div>
+    </pre>
+    <script type="text/javascript">
+      var textElement = document.getElementById('output');
+      if (window.requestIdleCallback) {
+        requestIdleCallback(function () {
+          Fingerprint2.get(function (components) {
+            // console.log(components) // an array of components: {key: ..., value: ...}
+            textElement.textContent = JSON.stringify(components, null, 2);
+          })
+        })
+      } else {
+        setTimeout(function () {
+          Fingerprint2.get(function (components) {
+            // console.log(components) // an array of components: {key: ..., value: ...}
+            textElement.textContent = JSON.stringify(components, null, 2);
+          })
+        }, 500)
+      }
+    </script>
+  </body>
+</html>
