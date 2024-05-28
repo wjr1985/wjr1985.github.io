@@ -18,9 +18,10 @@ Despite those 4 requirements, it's been oddly hard to find a browser that matche
 
 | Browser | Version Tested | Android | Mac | Windows | Linux | Extensions | Syncing | Keyboard Shortcuts | Ad-Blocking | Admiral Blocking |
 | ------- | -------------- | ------- | --- | ------- | ----- | ---------- | ------- | ------------------ | ----------- | ---------------- |
-| Vivaldi | | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️  |
+| Vivaldi | | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❗ |
+| Firefox | | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Google Chrome | | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ |
-| Microsoft Edge | | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ❌ |
+| Microsoft Edge | | ✅ | ✅ | ✅ | ✅ | ❗ | ✅ | ✅ | ✅ | ❌ |
 | Brave | | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Arc | | ❌ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ |
 | Samsung Internet |
